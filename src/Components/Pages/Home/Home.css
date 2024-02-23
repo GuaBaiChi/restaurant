@@ -1,0 +1,10 @@
+.home {
+  text-align: center;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* padding: 10%;  */
+}
+
+.home-container {
+  padding:5%;
+  color: white;
+}

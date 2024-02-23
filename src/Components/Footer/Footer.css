@@ -1,0 +1,60 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.footer-container {
+  background-color: #444444;
+  margin: 2% 5%;
+  /* margin: 5% 10% 2% 10%; */
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+
+.footer-info {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.footer-links .nav-link {
+  color: white !important;
+}
+
+.footer-links .nav-link:hover {
+  color: blue !important;
+  text-decoration: underline !important;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Icons */
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.footer-icons a {
+  margin: 0 5px;
+  font-size: 18px; 
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.colz-icon a:hover {
+  color: #999;
+}
+
+/* Copyright */
+.copyright {
+  font-size: 12px;
+}

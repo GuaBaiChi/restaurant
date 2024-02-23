@@ -1,0 +1,20 @@
+.App {
+  flex-direction: column;
+/* display and min-height can be commented out to get rid of snowcone */
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Ensure that the content area stretches to occupy remaining space */
+main {
+  flex: 1;
+}
+
+body {
+  background-color: lightgray;
+  /* background-image: url('./Images/Background/space-bg.jpg'); */
+  /* https://unblast.com/10-free-space-background-images-jpg/ */
+  background-size: cover; /* Cover the entire viewport */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Fix the background image in place */
+}

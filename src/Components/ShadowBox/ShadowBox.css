@@ -1,0 +1,32 @@
+.shadowBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.shadowbox-top-style {
+  background-color: #000000a8;
+  border-color: white;
+  border-radius: 0 0 2em 2em;
+  min-height: 40vh;
+  min-width: 40vw;
+  padding-top: 2em;
+}
+
+.shadowbox-mid-style {
+  background-color: #000000a8;
+  border-color: white;
+  color: white;
+  border-radius: 2em;
+  margin: 4em;
+  /* margin: 5% 10% 0% 10%; */
+  min-height: 40vh;
+  min-width: 40vw;
+  padding-top: 2em;
+}
+
+.shadowbox-inner-style {
+  margin: 2em;
+  padding-bottom: 1em;
+}

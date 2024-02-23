@@ -1,0 +1,11 @@
+.custom-navbar {
+  background-color: #444444 !important;
+}
+
+.navbar-collapse {
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
