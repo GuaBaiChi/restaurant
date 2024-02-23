@@ -1,4 +1,4 @@
-export default function Spa() {
+export default function Menu() {
   return (
     <div>
 

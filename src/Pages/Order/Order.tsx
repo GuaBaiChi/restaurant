@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
-import './Book.css';
+import './Order.css';
 import { rooms } from '../../Data/HotelData';
 import ReservationMenu from '../../Components/ReservationMenu/ReservationMenu';
 
-function Book() {
+function Order() {
   return (
     <>
       <ReservationMenu onSubmit={function (data: { startDate: string; endDate: string; guestCount: string; }): void {
@@ -33,4 +33,4 @@ function Book() {
   );
 }
 
-export default Book;
+export default Order;

@@ -6,9 +6,9 @@ import './App.css';
 
 // pages
 import Home from './Pages/Home/Home';
-import Book from './Pages/Book/Book';
+import Order from './Pages/Order/Order';
 import About from './Pages/About/About';
-import Contest from './Pages/Contest/Contest';
+import Menu from './Pages/Menu/Menu';
 
 // static components
 import HeaderNavbar from './Components/HeaderNavBar/HeaderNavBar';
@@ -22,9 +22,9 @@ const App: React.FC = () => {
         <main>
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/book' element={<Book />} />
+            <Route path='/order' element={<Order />} />
             <Route path='/about' element={<About />} />
-            <Route path='/contest' element={<Contest />} />
+            <Route path='/menu' element={<Menu />} />
           </Routes>
         </main>
         <footer>
