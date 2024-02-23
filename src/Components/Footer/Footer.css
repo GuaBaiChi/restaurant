@@ -30,8 +30,8 @@
 }
 
 .footer-links .nav-link:hover {
-  color: blue !important;
-  text-decoration: underline !important;
+  /* color: blue !important; */
+  /* text-decoration: underline !important; */
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -46,7 +46,8 @@
 .footer-icons a {
   margin: 0 5px;
   font-size: 18px; 
-  color: white;
+  /* color: white; */
+  color: black;
   transition: color 0.3s ease;
 }
 

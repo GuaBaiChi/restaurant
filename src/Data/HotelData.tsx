@@ -10,14 +10,16 @@ export type Hotel = {
   imageUrl: string;
   phone: string;
   email: string;
+  address: string;
 }
 
 export const hotelData: Hotel = {
-  name: "Fhloston Paradise",
+  name: "A Restaurant Name",
   description: "Experience luxury at our beautiful resort.",
   imageUrl: "https://example.com/hotel-image.jpg",
   phone: "0-123-456-789",
-  email: "Fhloston@Paradise.com",
+  email: "AnEmail@Email.com",
+  address: "an address",
 };
 
 
