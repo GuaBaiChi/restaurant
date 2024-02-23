@@ -1,3 +1,4 @@
+/* Footer Container */
 .footer {
   display: flex;
   justify-content: space-between;
@@ -8,7 +9,6 @@
 .footer-container {
   background-color: #444444;
   margin: 2% 5%;
-  /* margin: 5% 10% 2% 10%; */
   text-align: center;
   color: white;
   padding: 5px;
@@ -30,8 +30,6 @@
 }
 
 .footer-links .nav-link:hover {
-  /* color: blue !important; */
-  /* text-decoration: underline !important; */
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -40,19 +38,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  height: 50px; /* Adjust the height as needed */
+}
+
+.footer-icons img {
+  width: 16px; /* Set the width to match the other icons */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 5px; /* Adjust margin as needed */
+  padding-bottom: 3px;
 }
 
 .footer-icons a {
   margin: 0 5px;
   font-size: 18px; 
-  /* color: white; */
-  color: black;
+  color: white;
   transition: color 0.3s ease;
 }
 
-.colz-icon a:hover {
+.footer-icons a:hover {
   color: #999;
+}
+
+/* Remove underline for Zalo icon */
+.footer-icons a.zalo-link {
+  text-decoration: none;
 }
 
 /* Copyright */

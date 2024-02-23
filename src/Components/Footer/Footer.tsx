@@ -2,7 +2,7 @@ import { Nav } from "react-bootstrap";
 import { hotelData } from "../../Data/HotelData";
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import zaloIcon from "../../Images/ZaloIcon/letter-z3.png";
+import zaloIcon from "../../Images/ZaloIcon/zalo-icon.png";
 
 
 export default function Footer() {
@@ -11,9 +11,19 @@ export default function Footer() {
       <div className="footer">
         <div className="footer-info">
           <div>{hotelData.name}</div>
-          <div>Phone: {hotelData.phone}</div>
-          <div>Email: {hotelData.email}</div>
-          <div>Address: {hotelData.address}</div>
+          <div>
+            <i className="fa fa-phone-square" aria-hidden="true"></i>
+            {" "}Phone: {hotelData.phone}</div>
+          {/* <div>Email: {hotelData.email}</div> */}
+          <div>
+            <i className="fa fa-map-marker" aria-hidden="true"></i>
+            {" "}Address:{" "}
+            {/* https://maps.app.goo.gl/1nbUgNKBi3aP8NDEA */}
+            <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(hotelData.address)}`} target="_blank">
+
+              {hotelData.address}
+            </a>
+          </div>
         </div>
         <div className="footer-links">
           <Nav className="me-auto">
@@ -34,12 +44,6 @@ export default function Footer() {
         <a href="https://github.com/GuaBaiChi">
           <i className="fa fa-instagram" aria-hidden="true">Instagram</i>
         </a>
-        {/* <a href="https://www.linkedin.com/in/leon-r-60a370214/">
-          <i className="fa fa-linkedin-square">LinkedIn</i>
-        </a>
-        <a href="https://github.com/GuaBaiChi">
-          <i className="fa fa-github-square">Github</i>
-        </a> */}
         <a href="https://icons8.com/icon/0m71tmRjlxEe/zalo" className="zalo-link">
           <img src={zaloIcon} alt="Zalo" />
           Zalo
