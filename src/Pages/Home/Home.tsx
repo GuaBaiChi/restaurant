@@ -1,5 +1,5 @@
 import './Home.css';
-import CarouselComponent from '../../ImageCarousel/CarouselComponent';
+import CarouselComponent from '../../Components/ImageCarousel/CarouselComponent';
 
 // data
 import { Hotel, hotelData, rooms } from '../../Data/HotelData';

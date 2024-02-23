@@ -1,3 +1,27 @@
+<!-- Inspiration -->
+https://www.cityofdreamsmacau.com/en
+https://www.cityofdreamsmacau.com/en/stay/morpheus
+
+
+----
+
+# To create a react app with Typescript
+
+https://create-react-app.dev/docs/adding-typescript/
+
+```bash
+npx create-react-app my-app --template typescript
+```
+
+replace `my-app` with app name or working directory folder.
+
+i18n for translation
+https://www.i18next.com/
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

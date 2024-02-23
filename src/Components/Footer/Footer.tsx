@@ -1,5 +1,5 @@
 import { Nav } from "react-bootstrap";
-import { hotelData } from "../Data/HotelData";
+import { hotelData } from "../../Data/HotelData";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 

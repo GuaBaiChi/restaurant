@@ -1,7 +1,7 @@
 import React from 'react'
 import ShadowBox from '../ShadowBox/ShadowBox';
 import Carousel from 'react-bootstrap/Carousel';
-import { ABOUT_DATA } from '../Data/AboutData';
+import { ABOUT_DATA } from '../../Data/AboutData';
 
 export default function ContentCarousel() {
 

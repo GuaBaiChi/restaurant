@@ -5,10 +5,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 // pages
-import Home from './Components/Pages/Home/Home';
-import Book from './Components/Pages/Book/Book';
-import About from './Components/Pages/About/About';
-import Contest from './Components/Pages/Contest/Contest';
+import Home from './Pages/Home/Home';
+import Book from './Pages/Book/Book';
+import About from './Pages/About/About';
+import Contest from './Pages/Contest/Contest';
 
 // static components
 import HeaderNavbar from './Components/HeaderNavBar/HeaderNavBar';

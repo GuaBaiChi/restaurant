@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import './Book.css';
 import { rooms } from '../../Data/HotelData';
-import ReservationMenu from '../../ReservationMenu/ReservationMenu';
+import ReservationMenu from '../../Components/ReservationMenu/ReservationMenu';
 
 function Book() {
   return (
