@@ -1,9 +1,16 @@
 <!-- Inspiration -->
-https://www.cityofdreamsmacau.com/en
-https://www.cityofdreamsmacau.com/en/stay/morpheus
-
+https://breadandbutterhcm.com/
+https://www.livinbbq.com/
 
 ----
+https://www.pexels.com/photo/sliced-beef-steak-and-green-vegetable-on-top-of-tortilla-7613561/
+https://www.pexels.com/photo/a-person-a-corn-chip-5737254/
+https://www.pexels.com/photo/top-view-of-food-1640772/
+https://www.pexels.com/photo/margarita-glass-on-table-3073970/
+https://www.pexels.com/photo/cooked-food-2092897/
+https://www.pexels.com/photo/close-up-photo-of-rice-and-tacos-2087748/
+https://www.pexels.com/search/mexican%20food/
+
 
 # To create a react app with Typescript
 

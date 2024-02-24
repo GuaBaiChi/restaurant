@@ -4,6 +4,7 @@ import CarouselComponent from '../../Components/ImageCarousel/CarouselComponent'
 // data
 import { Hotel, hotelData, rooms } from '../../Data/HotelData';
 import { SHIP_PICS } from '../../Data/HotelImagesData';
+import { FOOD_PICS } from '../../Data/FoodImagesData';
 import { HOTEL_PICS } from '../../Data/HotelImagesData';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -53,7 +54,7 @@ function HotelLandingPage({ hotel }: { hotel: Hotel }) {
 function Home() {
   return (
     <>
-      <CarouselComponent items={HOTEL_PICS} />
+      <CarouselComponent items={FOOD_PICS} />
       <div className="home-container">
         <div className="home">
           <HotelLandingPage hotel={hotelData} />
