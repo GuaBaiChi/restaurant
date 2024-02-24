@@ -1,5 +1,5 @@
 import { Nav } from "react-bootstrap";
-import { hotelData } from "../../Data/HotelData";
+import { hotelData } from "../../Data/FoodData";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import zaloIcon from "../../Images/ZaloIcon/zalo-icon.png";

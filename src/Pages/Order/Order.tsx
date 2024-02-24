@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import './Order.css';
-import { rooms } from '../../Data/HotelData';
+import { rooms } from '../../Data/FoodData';
 import ReservationMenu from '../../Components/ReservationMenu/ReservationMenu';
 
 function Order() {

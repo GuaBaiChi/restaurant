@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import { Hotel, hotelData } from '../../Data/HotelData';
+import { Hotel, hotelData } from '../../Data/FoodData';
 import ContentCarousel from '../../Components/ContentCarousel/ContentCarousel';
 
 function HotelAboutPage({ hotel }: { hotel: Hotel }) {

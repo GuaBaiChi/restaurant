@@ -2,7 +2,7 @@ import './Home.css';
 import CarouselComponent from '../../Components/ImageCarousel/CarouselComponent';
 
 // data
-import { Hotel, hotelData, rooms } from '../../Data/HotelData';
+import { Hotel, hotelData, rooms } from '../../Data/FoodData';
 import { SHIP_PICS } from '../../Data/HotelImagesData';
 import { FOOD_PICS } from '../../Data/FoodImagesData';
 import { HOTEL_PICS } from '../../Data/HotelImagesData';
