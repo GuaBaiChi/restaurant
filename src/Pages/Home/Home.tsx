@@ -1,5 +1,5 @@
 import './Home.css';
-import CarouselComponent from '../../Components/ImageCarousel/CarouselComponent';
+import HomeCarousel from '../../Components/HomeCarousel/HomeCarousel';
 
 // data
 import { Hotel, hotelData, rooms } from '../../Data/FoodData';
@@ -54,7 +54,7 @@ function HotelLandingPage({ hotel }: { hotel: Hotel }) {
 function Home() {
   return (
     <>
-      <CarouselComponent items={FOOD_PICS} />
+      <HomeCarousel items={FOOD_PICS} />
       <div className="home-container">
         <div className="home">
           <HotelLandingPage hotel={hotelData} />
